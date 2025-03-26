@@ -17,9 +17,16 @@ body{
 }
 
 .btn-primary{
-    background-color: green !important;
-    border-color: green !important;
+    background-color: green;
+    border-color: green;
 }
+
+nav .btn-primary:hover{
+    background-color: green;
+    border-radius:2px solid rgb(0, 71, 0);
+}
+
+
 .red{
     color: red;
 }
@@ -39,3 +46,27 @@ body{
 .form-label{
     font-weight: bold;
 }
+
+#imageGrid .col{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.gri-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gri-buttons #threeColumnView {
+    color: blue;
+    background-color: transparent;
+    border: none;
+}
+
+.gri-buttons #singleColumnView {
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+
