@@ -6,7 +6,7 @@
     <title>Instagram</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=5">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   </head>
   <body>
@@ -17,11 +17,9 @@
               Instagram
           </a>
           <form class="d-flex">
-              <!-- Button trigger modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Create a new post
               </button>
-              <!-- Modal -->
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog">
                       <div class="modal-content">
@@ -73,18 +71,91 @@
         <i class="fa-solid fa-square"></i>
       </button>
     </div>
-    
       <div id="imageGrid" class="row row-cols-3 g-3">
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
-          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid"></div>
+          <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" 
+            class="img-fluid"
+            data-title="Pug"
+            data-date="12/02"
+            data-like="1620 likes"
+            data-description="A small, muscular dog with a wrinkled face and a charming, affectionate personality. Known for being playful and sociable.">
+          </div>
+          <div class="col"><img src="https://www.zooplus.es/magazine/wp-content/uploads/2017/03/border-collie-im-grass.jpg" 
+            class="img-fluid"
+            data-title="Border Collie"
+            data-date="15/12"
+            data-like="15285 likes"
+            data-description="Highly intelligent and energetic, this breed excels in herding and is known for its agility and focus.">
+          </div>
+          <div class="col"><img src="https://labradoresdeabantueso.com/wp-content/uploads/2023/09/Foto-Labrador-1-Guia-min.jpg" 
+            class="img-fluid"
+            data-title="Labrador Retriever"
+            data-date="02/09"
+            data-like="5455 likes"
+            data-description="A friendly, intelligent breed with a love for water and retrieving, making them great family pets.">
+          </div>
+          <div class="col"><img src="https://www.terranea.es/assets/images/razas/pastor_aleman2.jpg" 
+            class="img-fluid"
+            data-title="German Shepherd"
+            data-date="08/01"
+            data-like="8498 likes"
+            data-description="Loyal, courageous, and versatile, German Shepherds are often used as working dogs in police and military roles.">
+          </div>
+          <div class="col"><img src="https://www.wasky.es/wp-content/uploads/shallow-focus-photography-of-a-golden-retriever-686094-1024x683.jpg" 
+            class="img-fluid"
+            data-title="Golden Retriever"
+            data-date="24/04"
+            data-like="7658 likes"
+            data-description="Friendly, tolerant, and trustworthy, Golden Retrievers are popular family pets known for their gentle nature.">
+          </div>
+          <div class="col"><img src="https://static.wixstatic.com/media/db516d_3cee94c61dd34b25addd10b1d2dc682a~mv2.jpg/v1/fill/w_640,h_504,al_c,q_80,usm_1.20_1.00_0.01,enc_avif,quality_auto/db516d_3cee94c61dd34b25addd10b1d2dc682a~mv2.jpg" 
+            class="img-fluid"
+            data-title="Dalmatian"
+            data-date="10/01"
+            data-like="101 likes"
+            data-description="Recognizable by its distinctive black or liver-colored spots, this breed is energetic, outgoing, and intelligent.">
+          </div>
+          <div class="col"><img src="https://static.wixstatic.com/media/d1fede_23233c542b0943549b9761d59f1a2a7b~mv2.png/v1/fill/w_568,h_394,al_c,lg_1,q_85,enc_avif,quality_auto/d1fede_23233c542b0943549b9761d59f1a2a7b~mv2.png" 
+            class="img-fluid"
+            data-title="Husky"
+            data-date="27/05"
+            data-like="2589 likes"
+            data-description="A strong, athletic breed with striking blue eyes, known for its endurance and friendly, independent temperament.">
+          </div>
+          <div class="col"><img src="https://www.zooplus.es/magazine/wp-content/uploads/2021/10/Podenco-andaluz.jpeg" 
+            class="img-fluid"
+            data-title="Podenco"
+            data-date="18/07"
+            data-like="4583 likes"
+            data-description="A sleek, hunting dog breed known for its agility, speed, and sharp sense of smell, often seen in Spain.">
+          </div>
+          <div class="col"><img src="https://www.hogarmania.com/archivos/202101/galgo-tipos-portada-1280x720x80xX.jpg" 
+            class="img-fluid"
+            data-title="Greyhound"
+            data-date="20/10"
+            data-like="1763 likes"
+            data-description="Known for its speed and slender build, Greyhounds are gentle, calm, and affectionate companions.">
+          </div>
       </div>
+      <template id="postTemplate">
+        <div class="post-container col">
+          <div class="post-container-header">
+            <h2>Titulo</h2>
+            <span class="date">fecha</span>
+          </div>
+          <img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" class="img-fluid">
+          <span class="likes">likes</span>
+          <p class="decription">description</p>
+        </div>
+    </template>
+    <template id="imageTemplate">
+      <div class="col"><img src="https://urgenciesveterinaries.com/wp-content/uploads/2021/03/perros-braquicefalos-survet-01.jpg" 
+        class="img-fluid"
+        data-title=""
+        data-date=""
+        data-like=""
+        data-description="">
+      </div>
+  </template>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

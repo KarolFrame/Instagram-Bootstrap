@@ -26,7 +26,6 @@ nav .btn-primary:hover{
     border-radius:2px solid rgb(0, 71, 0);
 }
 
-
 .red{
     color: red;
 }
@@ -70,3 +69,22 @@ nav .btn-primary:hover{
     border: none;
 }
 
+.post-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    padding: 0px;
+}
+.post-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.post-container span, .post-container p{
+    padding: 5px;
+}
+.likes{
+    font-weight: bold;
+}
