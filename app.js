@@ -3,8 +3,14 @@ document.getElementById("threeColumnView").addEventListener("click", function() 
   const buttonThree = document.getElementById("threeColumnView");
   const buttonOne = document.getElementById("singleColumnView");
 
-  grid.classList.remove("row-cols-1");
-  grid.classList.add("row-cols-3");
+  console.log("Adios");
+  
+  //Galeria
+  grid.classList.remove("row-cols-md-1");
+  grid.classList.add("row-cols-md-3");
+  grid.classList.remove("row-cols-3");
+  grid.classList.add("row-cols-1");
+
 
   //obtenemos las img
   const imagesArray = Array.from(grid.getElementsByTagName("img"));
@@ -46,8 +52,9 @@ document.getElementById("singleColumnView").addEventListener("click", function()
   const buttonThree = document.getElementById("threeColumnView");
   const buttonOne = document.getElementById("singleColumnView");
 
-  grid.classList.remove("row-cols-3");
-  grid.classList.add("row-cols-1");
+  //Post
+  grid.classList.remove("row-cols-md-3");
+  grid.classList.add("row-cols-md-7");
 
   //obtenemos las img
   const imagesArray = Array.from(grid.getElementsByTagName("img"));

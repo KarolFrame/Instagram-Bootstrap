@@ -51,6 +51,11 @@ nav .btn-primary:hover{
     justify-content: center !important;
 }
 
+#imageGrid{
+    display: flex !important;
+    justify-content: center !important;
+}
+
 .gri-buttons{
     display: flex;
     justify-content: center;
