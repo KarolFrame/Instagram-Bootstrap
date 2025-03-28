@@ -2,8 +2,6 @@ document.getElementById("threeColumnView").addEventListener("click", function() 
   const grid = document.getElementById("imageGrid");
   const buttonThree = document.getElementById("threeColumnView");
   const buttonOne = document.getElementById("singleColumnView");
-
-  console.log("Adios");
   
   //Galeria
   grid.classList.remove("row-cols-md-1");
